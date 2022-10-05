@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="50500" type="Armor" name="Ixion Shield">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_shield" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="588" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1130" />
+		<set name="price" val="12250000" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="371" />
+			<enchant val="0" stat="sDef" />
+		</for>
+	</item>
+	<item id="50501" type="Armor" name="Ixion Sigil">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_shield" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="588" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="920" />
+		<set name="price" val="12250000" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<add stat="pDef" val="17" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="50502" type="Weapon" name="Ixion Blade - Focus">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_sword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3566-4" />
+		<for>
+			<set stat="pAtk" val="524" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50503" type="Weapon" name="Ixion Blade - Haste">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_sword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3564-3" />
+		<for>
+			<set stat="pAtk" val="524" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50504" type="Weapon" name="Ixion Blade - Health">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_sword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3013-3" />
+		<for>
+			<set stat="pAtk" val="524" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50505" type="Weapon" name="Ixion Great Sword - Health">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_bigsword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3013-3" />
+		<for>
+			<set stat="pAtk" val="638" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50506" type="Weapon" name="Ixion Great Sword - Haste">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_bigsword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3564-3" />
+		<for>
+			<set stat="pAtk" val="638" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50507" type="Weapon" name="Ixion Great Sword - Focus">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_bigsword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3566-4" />
+		<for>
+			<set stat="pAtk" val="638" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50508" type="Weapon" name="Ixion Axe - HP Drain">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_axe" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+
+		<set name="item_skill" val="3568-2" />
+		<for>
+			<set stat="pAtk" val="524" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50509" type="Weapon" name="Ixion Axe - HP Regeneration">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_axe" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+
+		<set name="item_skill" val="3569-3" />
+		<for>
+			<set stat="pAtk" val="524" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50510" type="Weapon" name="Ixion Axe - Health">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_axe" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+
+
+		<set name="item_skill" val="3013-3" />
+		<for>
+			<set stat="pAtk" val="524" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50511" type="Weapon" name="Ixion Mace - Acumen">
+		<set name="icon" val="dods_ixion_weapon_icon.ixon_magicBLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3047-3" />
+		<for>
+			<set stat="pAtk" val="420" />
+			<set stat="mAtk" val="307" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50512" type="Weapon" name="Ixion Mace - Mana Up">
+		<set name="icon" val="dods_ixion_weapon_icon.ixon_magicBLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3014-3" />
+		<for>
+			<set stat="pAtk" val="420" />
+			<set stat="mAtk" val="307" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50513" type="Weapon" name="Ixion Mace - MP Regeneration">
+		<set name="icon" val="dods_ixion_weapon_icon.ixon_magicBLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3576-3" />
+		<for>
+			<set stat="pAtk" val="420" />
+			<set stat="mAtk" val="307" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50514" type="Weapon" name="Ixion Cleaver - MP Regeneration">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_bighummer" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+
+		<set name="item_skill" val="3576-3" />
+		<for>
+			<set stat="pAtk" val="638" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50515" type="Weapon" name="Ixion Cleaver - Magic Hold">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_bighummer" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+
+		<set name="item_skill" val="3552-1" />
+		<for>
+			<set stat="pAtk" val="638" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50516" type="Weapon" name="Ixion Cleaver - Empower">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_bighummer" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+
+		<set name="item_skill" val="3552-1" />
+		<for>
+			<set stat="pAtk" val="638" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50517" type="Weapon" name="Ixion Stuff - MP Regeneration">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_stuff" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3576-3" />
+		<for>
+			<set stat="pAtk" val="511" />
+			<set stat="mAtk" val="337" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50518" type="Weapon" name="Ixion Stuff - Acumen">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_stuff" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3047-3" />
+		<for>
+			<set stat="pAtk" val="511" />
+			<set stat="mAtk" val="337" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50519" type="Weapon" name="Ixion Stuff - Mana Up">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_stuff" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3014-3" />
+		<for>
+			<set stat="pAtk" val="511" />
+			<set stat="mAtk" val="337" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50520" type="Weapon" name="Ixion Stinger - Hp Drain">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_dagger" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3568-2" />
+		<for>
+			<set stat="pAtk" val="458" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50521" type="Weapon" name="Ixion Stinger - Haste">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_dagger" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3564-3" />
+		<for>
+			<set stat="pAtk" val="458" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50522" type="Weapon" name="Ixion Stinger - Crt.Damage">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_dagger" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3572-3" />
+		<for>
+			<set stat="pAtk" val="458" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50523" type="Weapon" name="Ixion Fang - Health">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_fist" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3013-3" />
+		<for>
+			<set stat="pAtk" val="638" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50524" type="Weapon" name="Ixion Fang - Ctr.Stun">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_fist" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="oncrit_chance" val="43" />
+
+		<set name="oncrit_skill" val="3571-2" />
+
+		<set name="item_skill" val="3552-1" />
+		<for>
+			<set stat="pAtk" val="638" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50525" type="Weapon" name="Ixion Fang - Focus">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_fist" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3565-4" />
+		<for>
+			<set stat="pAtk" val="638" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50526" type="Weapon" name="Ixion Bow - Focus">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_bow" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="reuse_delay" val="1398" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="reuse_delay" val="1500" />
+
+		<set name="item_skill" val="3567-4" />
+
+		<for>
+			<set stat="pAtk" val="952" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="293" />
+			<set val="1" stat="mpConsume">
+				<and>
+					<game skill="true" chance="26" />
+				</and>
+			</set>
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50527" type="Weapon" name="Ixion Bow - Crt.Slow">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_bow" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="reuse_delay" val="1398" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="reuse_delay" val="1500" />
+
+		<set name="oncrit_chance" val="33" />
+
+		<set name="oncrit_skill" val="3574-3" />
+
+		<set name="item_skill" val="3552-1" />
+		<for>
+			<set stat="pAtk" val="952" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="293" />
+			<set val="1" stat="mpConsume">
+				<and>
+					<game skill="true" chance="26" />
+				</and>
+			</set>
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50528" type="Weapon" name="Ixion Bow - Cheap Shot">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_bow" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="reuse_delay" val="1398" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="reuse_delay" val="1500" />
+
+		<set name="item_skill" val="3552-1;8312-2" />
+		<for>
+			<set stat="pAtk" val="952" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="293" />
+			<set val="1" stat="mpConsume">
+				<and>
+					<game skill="true" chance="26" />
+				</and>
+			</set>
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50529" type="Weapon" name="Ixion Spear - Haste">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_pole" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3601-10" />
+		<for>
+			<set stat="pAtk" val="524" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50530" type="Weapon" name="Ixion Spear - Health">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_pole" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3013-4" />
+		<for>
+			<set stat="pAtk" val="524" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50531" type="Weapon" name="Ixion Spear - Guidance">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_pole" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3602-10" />
+		<for>
+			<set stat="pAtk" val="524" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50532" type="Weapon" name="Ixion Rapier - Health">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_rapier" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1280" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3013-3" />
+		<cond msgId="1518">
+			<and>
+				<player races="KAMAEL" />
+				
+			</and>
+		</cond>
+		<for>
+			<set stat="pAtk" val="475" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="406" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50533" type="Weapon" name="Ixion Rapier - Focus">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_rapier" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1280" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+ 		<set name="item_skill" val="8289-2" />
+		<cond msgId="1518">
+			<and>
+				<player races="KAMAEL" />
+				
+			</and>
+		</cond>
+		<for>
+			<set stat="pAtk" val="475" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="406" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50534" type="Weapon" name="Ixion Rapier - Haste">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_rapier" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1280" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3564-3" />
+		<cond msgId="1518">
+			<and>
+				<player races="KAMAEL" />
+				
+			</and>
+		</cond>
+		<for>
+			<set stat="pAtk" val="475" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="406" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50535" type="Weapon" name="Ixion Kamael Sword - Health">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_ksword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1800" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3013-3" />
+		<cond msgId="1518">
+			<and>
+				<player races="KAMAEL" />
+				
+			</and>
+		</cond>
+		<for>
+			<set stat="pAtk" val="568" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="2" />
+			<set stat="pAtkSpd" val="350" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50536" type="Weapon" name="Ixion Kamael Sword - Focus">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_ksword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1800" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3566-4" />
+		<cond msgId="1518">
+			<and>
+				<player races="KAMAEL" />
+				
+			</and>
+		</cond>
+		<for>
+			<set stat="pAtk" val="568" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="2" />
+			<set stat="pAtkSpd" val="350" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50537" type="Weapon" name="Ixion Kamael Sword - Haste">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_ksword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1800" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="item_skill" val="3564-3" />
+		<cond msgId="1518">
+			<and>
+				<player races="KAMAEL" />
+				
+			</and>
+		</cond>
+		<for>
+			<set stat="pAtk" val="568" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="2" />
+			<set stat="pAtkSpd" val="350" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50538" type="Weapon" name="Ixion Shooter - Focus">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_crossbow" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="reuse_delay" val="400" />
+
+		<set name="item_skill" val="8289-2" />
+		<cond msgId="1518">
+			<and>
+				<player races="KAMAEL" />
+				
+			</and>
+		</cond>
+		<for>
+			<set stat="pAtk" val="584" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="303" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50539" type="Weapon" name="Ixion Shooter - Crt.Slow">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_crossbow" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="reuse_delay" val="400" />
+
+		<set name="oncrit_chance" val="33" />
+
+		<set name="oncrit_skill" val="3574-3" />
+
+		<set name="item_skill" val="3552-1" />
+		<cond msgId="1518">
+			<and>
+				<player races="KAMAEL" />
+				
+			</and>
+		</cond>
+		<for>
+			<set stat="pAtk" val="584" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="303" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50540" type="Weapon" name="Ixion Shooter - Cheap Shot">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_crossbow" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="reuse_delay" val="400" />
+
+		<set name="item_skill" val="3552-1;3360-1" />
+		<cond msgId="1518">
+			<and>
+				<player races="KAMAEL" />
+				
+			</and>
+		</cond>
+		<for>
+			<set stat="pAtk" val="584" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="303" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50541" type="Weapon" name="Ixion Dual Wing">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_dual_sword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="element_enabled" val="true" />
+
+		<set name="enchant_enabled" val="1" />
+
+		<set name="enchant4_skill" val="3411-1" />
+
+		<set name="item_skill" val="3552-1" />
+		<for>
+			<set stat="pAtk" val="638" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+	<item id="50542" type="Weapon" name="Ixion Dual Dagger">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_dual_dagger" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="element_enabled" val="true" />
+
+		<set name="enchant_enabled" val="1" />
+
+		<set name="enchant4_skill" val="8298-1" />
+
+		<set name="item_skill" val="3552-1" />
+		<for>
+			<set stat="pAtk" val="638" />
+			<set stat="mAtk" val="230" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+			<add stat="holyPower" val="250" />
+		</for>
+	</item>
+</list>

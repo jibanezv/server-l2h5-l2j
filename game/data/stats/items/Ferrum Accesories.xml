@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <item id="43118" type="Armor" name="Ferrum Shield">
+        <set name="icon" val="Ferrum_acc_by_Asuki.weapon_akra_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="lhand" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="844" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="CRYSTAL" />
+        <set name="weight" val="1190" />
+        <set name="price" val="17575000" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <sub stat="rEvas" val="8" />
+            <set stat="rShld" val="20" />
+            <set stat="sDef" val="413" />
+            <enchant val="0" stat="sDef" />
+        </for>
+    </item>
+    <item id="43119" type="Armor" name="Ferrum Cloak">
+        <set name="icon" val="Ferrum_acc_by_Asuki.icon_cloak_ferrum" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="back" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="CLOTH" />
+        <set name="weight" val="220" />
+        <cond msgId="2453">
+            <player cloakStatus="true" />
+        </cond>
+        <for>
+            <add stat="darkRes" val="10" />
+            <add stat="earthRes" val="10" />
+            <add stat="fireRes" val="10" />
+            <add stat="holyRes" val="20" />
+            <add stat="waterRes" val="20" />
+            <add stat="windRes" val="20" />
+            <add stat="pDef" val="30" />
+        </for>
+    </item>
+    <item id="43120" type="Armor" name="Ferrum Sigil">
+        <set name="icon" val="Ferrum_acc_by_Asuki.icon_cloak_ferrum" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="SIGIL" />
+        <set name="bodypart" val="lhand" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="844" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="920" />
+        <set name="price" val="17575000" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <sub stat="rEvas" val="8" />
+            <add stat="pDef" val="21" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="43121" type="Armor" name="Ferrum Necklace">
+        <set name="icon" val="Ferrum_acc_by_Asuki.r991_necklace_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="neck" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="1046" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="SILVER" />
+        <set name="weight" val="150" />
+        <set name="price" val="21795000" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="mDef" val="138" />
+            <add stat="maxMp" val="52" />
+            <enchant stat="mDef" val="0" />
+        </for>
+    </item>
+    <item id="43122" type="Armor" name="Ferrum Earring">
+        <set name="icon" val="Ferrum_acc_by_Asuki.r991_earring_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="rear;lear" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="785" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="SILVER" />
+        <set name="weight" val="150" />
+        <set name="price" val="16346000" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="mDef" val="104" />
+            <add stat="maxMp" val="39" />
+            <enchant stat="mDef" val="0" />
+        </for>
+    </item>
+    <item id="43123" type="Armor" name="Ferrum Ring">
+        <set name="icon" val="Ferrum_acc_by_Asuki.r991_ring_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="rfinger;lfinger" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="523" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="GOLD" />
+        <set name="weight" val="150" />
+        <set name="price" val="10897000" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="mDef" val="69" />
+            <add stat="maxMp" val="27" />
+            <enchant stat="mDef" val="0" />
+        </for>
+    </item>
+    <item id="43124" type="Armor" name="Ferrum Accessory">
+        <set name="icon" val="Ferrum_acc_by_Asuki.icon_Asuki_accessary" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="hair" />
+        <set name="immediate_effect" val="1" />
+        <set name="material" val="WOOD" />
+        <set name="weight" val="10" />
+        <set name="is_tradable" val="false" />
+        <set name="is_dropable" val="false" />
+        <set name="is_sellable" val="false" />
+        <set name="is_depositable" val="false" />
+        <set name="is_oly_restricted" val="true" />
+    </item>
+    <item id="40219" type="Armor" name="Cloak of Ferrum">
+        <set name="icon" val="Ferrum_Weapons_Asuki.icon_cloak_ferrum" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="back" />
+        <set name="crystal_type" val="S84" />
+        <set name="immediate_effect" val="1" />
+        <set name="material" val="CLOTH" />
+        <set name="price" val="32971650" />
+        <set name="weight" val="220" />
+        <set name="item_skill" val="21243-1" />
+        <cond msgId="2453">
+            <player cloakStatus="true" />
+        </cond>
+        <for>
+            <add stat="darkRes" val="10" />
+            <add stat="earthRes" val="10" />
+            <add stat="fireRes" val="10" />
+            <add stat="holyRes" val="20" />
+            <add stat="waterRes" val="20" />
+            <add stat="windRes" val="20" />
+            <add stat="pDef" val="30" />
+        </for>
+    </item>
+
+    <item id="40220" type="Armor" name="Ferrum Sigil">
+        <set name="icon" val="Ferrum_Weapons_Asuki.Ixion_Sigil_i01" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="SIGIL" />
+        <set name="bodypart" val="lhand" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="844" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="920" />
+        <set name="price" val="17575000" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <sub stat="rEvas" val="8" />
+            <add stat="pDef" val="21" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="40221" type="Armor" name="Helmet	Ferrum">
+        <set name="icon" val="Ferrum_Weapons_Asuki.Ferrum_icon_Helmets" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="hair" />
+        <set name="immediate_effect" val="1" />
+        <set name="material" val="WOOD" />
+        <set name="weight" val="10" />
+        <set name="is_tradable" val="false" />
+        <set name="is_dropable" val="false" />
+        <set name="is_sellable" val="false" />
+        <set name="is_depositable" val="false" />
+        <set name="is_oly_restricted" val="false" />
+        <for>
+            <add stat="mDef" val="69" />
+            <add stat="pDef" val="69" />
+        </for>
+    </item>
+    <item id="40222" type="Armor" name="Ferrum Ring">
+        <set name="icon" val="Ferrum_Weapons_Asuki.Aion_Ring_i05" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="rfinger;lfinger" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="365" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="GOLD" />
+        <set name="weight" val="150" />
+        <set name="price" val="7596000" />
+        <set name="enchant_enabled" val="1" />
+        <set name="item_skill" val="40222-1" />
+        <for>
+            <add stat="mDef" val="69" />
+            <add stat="maxMp" val="27" />
+            <enchant stat="mDef" val="0" />
+        </for>
+    </item>
+    <item id="40223" type="Armor" name="Ferrum Earring">
+        <set name="icon" val="Ferrum_Weapons_Asuki.Aion_Earring_i05" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="rear;lear" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="547" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="SILVER" />
+        <set name="weight" val="150" />
+        <set name="price" val="11394000" />
+        <set name="enchant_enabled" val="1" />
+        <set name="item_skill" val="40223-1" />
+        <for>
+            <add stat="mDef" val="104" />
+            <add stat="maxMp" val="39" />
+            <enchant stat="mDef" val="0" />
+        </for>
+    </item>
+    <item id="40224" type="Armor" name="Ferrum Necklace">
+        <set name="icon" val="Ferrum_Weapons_Asuki.Aion_Necklace_i05" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="neck" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="729" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="SILVER" />
+        <set name="weight" val="150" />
+        <set name="price" val="15192000" />
+        <set name="enchant_enabled" val="1" />
+        <set name="item_skill" val="40224-1" />
+        <for>
+            <add stat="mDef" val="138" />
+            <add stat="maxMp" val="52" />
+            <enchant stat="mDef" val="0" />
+        </for>
+    </item>
+    <item id="40225" type="Armor" name="Ring of Istina">
+        <set name="icon" val="Ferrum_Weapons_Asuki.ring_earthworm_heart" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="rfinger;lfinger" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="83" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="GOLD" />
+        <set name="weight" val="150" />
+        <set name="price" val="1730000" />
+        <set name="enchant_enabled" val="1" />
+        <set name="item_skill" val="40225-1" />
+        <for>
+            <add stat="mDef" val="68" />
+            <add stat="maxMp" val="41" />
+            <enchant stat="mDef" val="0" />
+        </for>
+    </item>
+</list>

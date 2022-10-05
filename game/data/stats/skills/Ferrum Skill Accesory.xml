@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="skills.xsd">
+    <skill id="40222" levels="1" name="Ferrum Ring">
+        <!-- Confirmed CT2.5 -->
+        <set name="target" val="TARGET_SELF" />
+        <set name="operateType" val="P" />
+        <for>
+            <sub stat="stunVuln" val="4.76" />
+        </for>
+    </skill>
+    <skill id="40223" levels="1" name="Ferrum Earring">
+        <!-- Confirmed CT2.5 -->
+        <set name="target" val="TARGET_SELF" />
+        <set name="operateType" val="P" />
+        <for>
+            <sub stat="sleepVuln" val="5" />
+            <sub stat="rootVuln" val="5" />
+        </for>
+    </skill>
+    <skill id="40224" levels="1" name="Ferrum Necklace">
+        <!-- Confirmed CT2.5 -->
+        <set name="target" val="TARGET_SELF" />
+        <set name="operateType" val="P" />
+        <for>
+            <add stat="maxMp" val="33" />
+        </for>
+    </skill>
+    <skill id="40225" levels="1" name="Ring of Istina">
+        <!-- Confirmed CT2.5 -->
+        <!-- Boss Jewel Skill -->
+        <set name="magicLvl" val="75" />
+        <set name="operateType" val="P" />
+        <set name="target" val="TARGET_SELF" />
+        <for>
+            <param POISON="50" />
+            <param HOLD="50" />
+            <add stat="accCombat" val="2" />
+            <mul stat="cAtk" val="1.15" />
+            <mul stat="pAtkSpd" val="1.04" />
+            <mul stat="mAtkSpd" val="1.04" />
+            <param PARALYZE="50" />
+            <param SHOCK="50" />
+            <param SLEEP="50" />
+            <add stat="reflectDam" val="5" />
+        </for>
+    </skill>
+</list>

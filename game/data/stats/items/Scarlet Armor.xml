@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+    <item id="34572" type="Armor" name="Scarlet Helmet">
+        <set name="icon" val="Asuki_Icon.armor_helmet_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="head" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="1005" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="BONE" />
+        <set name="weight" val="530" />
+        <set name="price" val="20940000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <cond msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </cond>
+        <for>
+            <add stat="pDef" val="110" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="34573" type="Armor" name="Scarlet Leather Helmet">
+        <set name="icon" val="Asuki_Icon.armor_leather_helmet_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="head" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="1005" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="BONE" />
+        <set name="weight" val="530" />
+        <set name="price" val="20940000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="110" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="34574" type="Armor" name="Scarlet Circlet">
+        <set name="icon" val="Asuki_Icon.armor_circlet_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="head" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="1005" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="BONE" />
+        <set name="weight" val="530" />
+        <set name="price" val="20940000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <cond msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </cond>
+        <for>
+            <add stat="pDef" val="110" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="34575" type="Armor" name="Scarlet Breastplate">
+        <set name="icon" val="Asuki_Icon.armor_t701_u_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="HEAVY" />
+        <set name="bodypart" val="chest" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="2680" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="BRONZE" />
+        <set name="weight" val="7520" />
+        <set name="price" val="55840000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <cond msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </cond>
+        <for>
+            <add stat="pDef" val="272" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="34576" type="Armor" name="Scarlet Leather Breastplate">
+        <set name="icon" val="Asuki_Icon.armor_t702_u_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="LIGHT" />
+        <set name="bodypart" val="chest" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="2010" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="BRONZE" />
+        <set name="weight" val="4140" />
+        <set name="price" val="41880000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="204" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="34577" type="Armor" name="Scarlet Tunic">
+        <set name="icon" val="Asuki_Icon.armor_t703_u_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="MAGIC" />
+        <set name="bodypart" val="chest" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="2010" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="BRONZE" />
+        <set name="weight" val="1750" />
+        <set name="price" val="41880000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <cond msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </cond>
+        <for>
+            <add stat="pDef" val="136" />
+            <add stat="maxMp" val="661" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="34578" type="Armor" name="Scarlet Gaiter">
+        <set name="icon" val="Asuki_Icon.armor_t701_l_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="HEAVY" />
+        <set name="bodypart" val="legs" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="1675" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="SCALE_OF_DRAGON" />
+        <set name="weight" val="3170" />
+        <set name="price" val="34900000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <cond msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </cond>
+        <for>
+            <add stat="pDef" val="170" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="34579" type="Armor" name="Scarlet leather Legging">
+        <set name="icon" val="Asuki_Icon.armor_t702_l_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="LIGHT" />
+        <set name="bodypart" val="legs" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="1256" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="SCALE_OF_DRAGON" />
+        <set name="weight" val="1320" />
+        <set name="price" val="26175000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="128" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="34580" type="Armor" name="Scarlet Stockings">
+        <set name="icon" val="Asuki_Icon.armor_t703_l_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="MAGIC" />
+        <set name="bodypart" val="legs" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="1256" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="SCALE_OF_DRAGON" />
+        <set name="weight" val="850" />
+        <set name="price" val="26175000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <cond msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </cond>
+        <for>
+            <add stat="pDef" val="85" />
+            <add stat="maxMp" val="439" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="34581" type="Armor" name="Scarlet Gauntlet">
+        <set name="icon" val="Asuki_Icon.armor_t701_g_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="gloves" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="670" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="510" />
+        <set name="price" val="13960000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <cond msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </cond>
+        <for>
+            <add stat="pDef" val="74" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="34582" type="Armor" name="Scarlet Leather Gloves">
+        <set name="icon" val="Asuki_Icon.armor_t702_g_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="gloves" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="670" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="510" />
+        <set name="price" val="13960000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="74" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="34583" type="Armor" name="Scarlet Gloves">
+        <set name="icon" val="Asuki_Icon.armor_t703_g_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="gloves" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="670" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="510" />
+        <set name="price" val="13960000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <cond msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </cond>
+        <for>
+            <add stat="pDef" val="74" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="34584" type="Armor" name="Scarlet Boots">
+        <set name="icon" val="Asuki_Icon.armor_t701_b_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="feet" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="670" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="1070" />
+        <set name="price" val="13960000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <cond msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </cond>
+        <for>
+            <add stat="pDef" val="74" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="34585" type="Armor" name="Scarlet Leather Boots">
+        <set name="icon" val="Asuki_Icon.armor_t702_b_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="feet" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="670" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="1070" />
+        <set name="price" val="13960000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="74" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="34586" type="Armor" name="Scarlet Shoes">
+        <set name="icon" val="Asuki_Icon.armor_t703_b_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="feet" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="670" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="1070" />
+        <set name="price" val="13960000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <cond msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </cond>
+        <for>
+            <add stat="pDef" val="74" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="34587" type="Armor" name="Scarlet Hat">
+        <set name="icon" val="Ferrum_acc_by_Asuki.icon_Asuki_accessary" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="hair" />
+        <set name="immediate_effect" val="1" />
+        <set name="material" val="WOOD" />
+        <set name="weight" val="10" />
+        <set name="is_tradable" val="false" />
+        <set name="is_dropable" val="false" />
+        <set name="is_sellable" val="false" />
+        <set name="is_depositable" val="false" />
+        <set name="is_oly_restricted" val="true" />
+    </item>
+    <item id="34593" type="Armor" name="Cloak of Scarlet">
+        <set name="icon" val="Ferrum_Weapons_Asuki.icon_cloak_ferrum" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="back" />
+        <set name="crystal_type" val="S84" />
+        <set name="immediate_effect" val="1" />
+        <set name="material" val="CLOTH" />
+        <set name="price" val="32971650" />
+        <set name="weight" val="220" />
+        <set name="item_skill" val="21243-1" />
+        <cond msgId="2453">
+            <player cloakStatus="true" />
+        </cond>
+        <for>
+            <add stat="darkRes" val="10" />
+            <add stat="earthRes" val="10" />
+            <add stat="fireRes" val="10" />
+            <add stat="holyRes" val="20" />
+            <add stat="waterRes" val="20" />
+            <add stat="windRes" val="20" />
+            <add stat="pDef" val="30" />
+        </for>
+    </item>
+    <item id="34591" type="Armor" name="Scarlet Shield">
+        <set name="icon" val="Ferrum_Weapons_Asuki.lind_shield_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="lhand" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="844" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="CRYSTAL" />
+        <set name="weight" val="1190" />
+        <set name="price" val="17575000" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <sub stat="rEvas" val="8" />
+            <set stat="rShld" val="20" />
+            <set stat="sDef" val="413" />
+            <enchant val="0" stat="sDef" />
+        </for>
+    </item>
+    <item id="34592" type="Armor" name="Scarlet Sigil">
+        <set name="icon" val="Ferrum_Weapons_Asuki.Ixion_Sigil_i01" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="SIGIL" />
+        <set name="bodypart" val="lhand" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="844" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="920" />
+        <set name="price" val="17575000" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <sub stat="rEvas" val="8" />
+            <add stat="pDef" val="21" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+</list>

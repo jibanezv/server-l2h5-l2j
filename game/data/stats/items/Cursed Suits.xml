@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+    <item id="50001" type="Armor" name="Zariche Costume">
+        <set name="icon" val="icon.weapon_unique_zariche_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="onepiece" />
+        <set name="immediate_effect" val="true" />
+        <set name="material" val="WOOD" />
+        <set name="weight" val="10" />
+        <set name="price" val="6000000" />
+        <for>
+            <add order="0" stat="mDef" val="3000" />
+            <add order="0" stat="pDef" val="3000" />
+            <add stat="holyRes" val="450" />
+            <add stat="darkRes" val="450" />
+            <add stat="waterRes" val="450" />
+            <add stat="fireRes" val="450" />
+            <add stat="windRes" val="450" />
+            <add stat="earthRes" val="450" />
+        </for>
+    </item>
+    <item id="50000" type="Armor" name="Akamanah Costume">
+        <set name="icon" val="icon.weapon_dual_sword_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="onepiece" />
+        <set name="immediate_effect" val="true" />
+        <set name="material" val="WOOD" />
+        <set name="weight" val="10" />
+        <set name="price" val="6000000" />
+        <for>
+            <add order="0" stat="mDef" val="3000" />
+            <add order="0" stat="pDef" val="3000" />
+            <add stat="holyRes" val="450" />
+            <add stat="darkRes" val="450" />
+            <add stat="waterRes" val="450" />
+            <add stat="fireRes" val="450" />
+            <add stat="windRes" val="450" />
+            <add stat="earthRes" val="450" />
+        </for>
+    </item>
+    <item id="60000" type="Armor" name="Akamanah Acc">
+        <set name="icon" val="icon.Accessary_sea_robber_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="hair" />
+        <set name="immediate_effect" val="true" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="10" />
+        <set name="price" val="2000000" />
+    </item>
+    <item id="60001" type="Armor" name="Zariche Acc">
+        <set name="icon" val="icon.Accessary_sea_robber_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="hair" />
+        <set name="immediate_effect" val="true" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="10" />
+        <set name="price" val="2000000" />
+    </item>
+     <item id="94700" type="Armor" name="Valakas Costume">
+        <set name="icon" val="icon.weapon_dual_sword_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="onepiece" />
+        <set name="immediate_effect" val="true" />
+        <set name="material" val="WOOD" />
+        <set name="weight" val="10" />
+        <set name="price" val="6000000" />
+        <for>
+            <add order="0" stat="mDef" val="6666" />
+            <add order="0" stat="pDef" val="6666" />
+            <add stat="holyRes" val="666" />
+            <add stat="darkRes" val="666" />
+            <add stat="waterRes" val="666" />
+            <add stat="fireRes" val="666" />
+            <add stat="windRes" val="666" />
+            <add stat="earthRes" val="666" />
+        </for>
+    </item>
+        <item id="94701" type="Armor" name="Valakas Acc">
+        <set name="icon" val="icon.Accessary_sea_robber_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="hair" />
+        <set name="immediate_effect" val="true" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="10" />
+        <set name="price" val="2000000" />
+    </item>
+    <item id="94702" type="Armor" name="Valakas Cloak">
+        <set name="icon" val="Ferrum_Weapons_Asuki.icon_cloak_ferrum" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="back" />
+        <set name="crystal_type" val="S84" />
+        <set name="immediate_effect" val="1" />
+        <set name="material" val="CLOTH" />
+        <set name="price" val="32971650" />
+        <set name="weight" val="220" />
+        <set name="item_skill" val="21243-1" />
+        <cond msgId="2453">
+            <player cloakStatus="true" />
+        </cond>
+        <for>
+            <add stat="darkRes" val="666" />
+            <add stat="earthRes" val="666" />
+            <add stat="fireRes" val="666" />
+            <add stat="holyRes" val="666" />
+            <add stat="waterRes" val="666" />
+            <add stat="windRes" val="666" />
+            <add stat="pDef" val="666" />
+        </for>
+    </item>
+    <item id="90101" type="Armor" name="Legendary Breastplate">
+        <set name="icon" val="Asuki_Icon.armor_t701_u_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="HEAVY" />
+        <set name="bodypart" val="chest" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="2680" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="BRONZE" />
+        <set name="weight" val="7520" />
+        <set name="price" val="55840000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <cond msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </cond>
+        <for>
+            <add stat="pDef" val="272" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="90102" type="Armor" name="Legendary Gaiter">
+        <set name="icon" val="Asuki_Icon.armor_t701_l_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="HEAVY" />
+        <set name="bodypart" val="legs" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="1675" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="SCALE_OF_DRAGON" />
+        <set name="weight" val="3170" />
+        <set name="price" val="34900000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <cond msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </cond>
+        <for>
+            <add stat="pDef" val="170" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="90103" type="Armor" name="Legendary Gauntlet">
+        <set name="icon" val="Asuki_Icon.armor_t701_g_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="gloves" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="670" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="510" />
+        <set name="price" val="13960000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <cond msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </cond>
+        <for>
+            <add stat="pDef" val="74" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="90104" type="Armor" name="Legendary Boots">
+        <set name="icon" val="Asuki_Icon.armor_t701_b_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="feet" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="670" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="1070" />
+        <set name="price" val="13960000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <cond msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </cond>
+        <for>
+            <add stat="pDef" val="74" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+        <item id="90100" type="Armor" name="Legendary Helmet">
+        <set name="icon" val="Asuki_Icon.armor_helmet_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="head" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="1005" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="BONE" />
+        <set name="weight" val="530" />
+        <set name="price" val="20940000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="1" />
+        <cond msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </cond>
+        <for>
+            <add stat="pDef" val="110" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="90211" type="Armor" name="Legendary Shield">
+		<set name="icon" val="dods_ixion_weapon_icon.ixion_shield" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="588" />
+		<set name="crystal_type" val="S84" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1130" />
+		<set name="price" val="12250000" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="371" />
+			<enchant val="0" stat="sDef" />
+		</for>
+    </item>
+    <item id="90120" type="Armor" name="Legendary Cloak">
+        <set name="icon" val="Ferrum_Weapons_Asuki.icon_cloak_ferrum" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="back" />
+        <set name="crystal_type" val="S84" />
+        <set name="immediate_effect" val="1" />
+        <set name="material" val="CLOTH" />
+        <set name="price" val="32971650" />
+        <set name="weight" val="220" />
+        <set name="item_skill" val="21243-1" />
+        <cond msgId="2453">
+            <player cloakStatus="true" />
+        </cond>
+        <for>
+            <add stat="darkRes" val="10" />
+            <add stat="earthRes" val="10" />
+            <add stat="fireRes" val="10" />
+            <add stat="holyRes" val="20" />
+            <add stat="waterRes" val="20" />
+            <add stat="windRes" val="20" />
+            <add stat="pDef" val="30" />
+        </for>
+    </item>
+</list>

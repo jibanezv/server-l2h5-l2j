@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+    <item id="79921" type="Armor" name="Eye Shield">
+        <set name="icon" val="icon.heavengate_shield_i01" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="lhand" />
+        <set name="avoid_modify" val="-8" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="844" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="CRYSTAL" />
+        <set name="weight" val="1190" />
+        <set name="price" val="17575000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <sub stat="rEvas" val="8" />
+            <set stat="rShld" val="20" />
+            <set stat="sDef" val="413" />
+            <enchant val="0" stat="sDef" />
+        </for>
+    </item>
+    <item id="79922" type="Armor" name="Kratere Shield">
+        <set name="icon" val="icon.heavengate_shield_i01" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="lhand" />
+        <set name="avoid_modify" val="-8" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="844" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="CRYSTAL" />
+        <set name="weight" val="1190" />
+        <set name="price" val="17575000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <sub stat="rEvas" val="8" />
+            <set stat="rShld" val="20" />
+            <set stat="sDef" val="413" />
+            <enchant val="0" stat="sDef" />
+        </for>
+    </item>
+    <item id="79923" type="Armor" name="Beranka Shield">
+        <set name="icon" val="icon.heavengate_shield_i01" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="lhand" />
+        <set name="avoid_modify" val="-8" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="844" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="CRYSTAL" />
+        <set name="weight" val="1190" />
+        <set name="price" val="17575000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <sub stat="rEvas" val="8" />
+            <set stat="rShld" val="20" />
+            <set stat="sDef" val="413" />
+            <enchant val="0" stat="sDef" />
+        </for>
+    </item>
+    <item id="79924" type="Armor" name="Phoenixwing Shield">
+        <set name="icon" val="icon.heavengate_shield_i01" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="lhand" />
+        <set name="avoid_modify" val="-8" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="844" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="CRYSTAL" />
+        <set name="weight" val="1190" />
+        <set name="price" val="17575000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <sub stat="rEvas" val="8" />
+            <set stat="rShld" val="20" />
+            <set stat="sDef" val="413" />
+            <enchant val="0" stat="sDef" />
+        </for>
+    </item>
+    <item id="79925" type="Armor" name="Anasbell Shield">
+        <set name="icon" val="icon.heavengate_shield_i01" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="lhand" />
+        <set name="avoid_modify" val="-8" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="844" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="CRYSTAL" />
+        <set name="weight" val="1190" />
+        <set name="price" val="17575000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <sub stat="rEvas" val="8" />
+            <set stat="rShld" val="20" />
+            <set stat="sDef" val="413" />
+            <enchant val="0" stat="sDef" />
+        </for>
+    </item>
+    <item id="79926" type="Armor" name="Shield Socon">
+        <set name="icon" val="icon.heavengate_shield_i01" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="lhand" />
+        <set name="avoid_modify" val="-8" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="844" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="CRYSTAL" />
+        <set name="weight" val="1190" />
+        <set name="price" val="17575000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <sub stat="rEvas" val="8" />
+            <set stat="rShld" val="20" />
+            <set stat="sDef" val="413" />
+            <enchant val="0" stat="sDef" />
+        </for>
+    </item>
+    <item id="79927" type="Armor" name="Shield Sumontes">
+        <set name="icon" val="icon.heavengate_shield_i01" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="lhand" />
+        <set name="avoid_modify" val="-8" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="844" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="CRYSTAL" />
+        <set name="weight" val="1190" />
+        <set name="price" val="17575000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <sub stat="rEvas" val="8" />
+            <set stat="rShld" val="20" />
+            <set stat="sDef" val="413" />
+            <enchant val="0" stat="sDef" />
+        </for>
+    </item>
+    <item id="79928" type="Armor" name="Venustum Shield">
+        <set name="icon" val="icon.heavengate_shield_i01" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="lhand" />
+        <set name="avoid_modify" val="-8" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="844" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="CRYSTAL" />
+        <set name="weight" val="1190" />
+        <set name="price" val="17575000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <sub stat="rEvas" val="8" />
+            <set stat="rShld" val="20" />
+            <set stat="sDef" val="413" />
+            <enchant val="0" stat="sDef" />
+        </for>
+    </item>
+</list>

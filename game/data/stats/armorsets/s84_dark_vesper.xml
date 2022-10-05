@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/armorSets.xsd">
+<!-- S84Dark Vesper Armor Sets -->
+	<set id="215">
+		<chest id="55016" /> <!--Dark Vesper Breastplate -->
+		<legs id="55017" /> <!--Dark Vesper Gaiter -->
+		<head id="55015" /> <!--Dark Vesper Helmet -->
+		<gloves id="55018" /> <!--Dark Vesper Gauntlet -->
+		<feet id="55019" /> <!--Dark Vesper Boots -->
+		<shield id="40218" /> <!--Dark Vesper Shield -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="8403" level="1" /> <!--Dark Vesper Heavy Armor Set -->
+		<shield_skill id="8496" level="1" /> <!--Dark Vesper Shield -->
+		<enchant6skill id="8461" level="1" /> <!-- Enchant Heavy Armor (S Grade) -->
+		<str val="3" />
+		<con val="-2" />
+	</set>
+	<set id="216">
+		<chest id="34576" /> <!--Dark Vesper Leather Breastplate -->
+		<legs id="34579" /> <!--Dark Vesper Leather Legging -->
+		<head id="34573" /> <!--Dark Vesper Leather Helmet -->
+		<gloves id="34582" /> <!--Dark Vesper Leather Gloves -->
+		<feet id="34585" /> <!--Dark Vesper Leather Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="8404" level="1" /> <!--Dark Vesper Leather Armor Set -->
+		<enchant6skill id="8462" level="1" /> <!-- Enchant Light Armor (S Grade) -->
+		<str val="1" />
+		<con val="-2" />
+		<dex val="2" />
+	</set>
+	<set id="217">
+		<chest id="34577" /> <!--Dark Vesper Tunic -->
+		<legs id="34580" /> <!--Dark Vesper Stockings -->
+		<head id="34574" /> <!--Dark Vesper Circlet -->
+		<gloves id="34583" /> <!--Dark Vesper Gloves -->
+		<feet id="34586" /> <!--Dark Vesper Shoes -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="8405" level="1" /> <!--Dark Vesper Robe Set -->
+		<enchant6skill id="8463" level="1" /> <!-- Enchant Robe (S Grade) -->
+		<int val="1" />
+		<men val="-2" />
+		<wit val="2" />
+	</set>
+			<!-- S84Dark Vesper Armor Sets -->
+</list>

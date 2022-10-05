@@ -1,0 +1,15 @@
+ago 26, 2022 2:32:59 PM com.l2jserver.gameserver.engines.DocumentBase parse
+GRAVE: Error loading file C:\Servidor\game\data\stats\items\GoD Weapons.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Servidor/game/data/stats/items/GoD%20Weapons.xml; lineNumber: 3731; columnNumber: 11; El tipo de elemento "list" debe finalizar por la etiqueta final coincidente "</list>".
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at com.l2jserver.gameserver.engines.DocumentBase.parse(DocumentBase.java:160)
+	at com.l2jserver.gameserver.engines.DocumentEngine.loadItems(DocumentEngine.java:124)
+	at com.l2jserver.gameserver.datatables.ItemTable.load(ItemTable.java:128)
+	at com.l2jserver.gameserver.datatables.ItemTable.<init>(ItemTable.java:119)
+	at com.l2jserver.gameserver.datatables.ItemTable$SingletonHolder.<clinit>(ItemTable.java:418)
+	at com.l2jserver.gameserver.datatables.ItemTable.getInstance(ItemTable.java:114)
+	at com.l2jserver.gameserver.GameServer.<init>(GameServer.java:209)
+	at com.l2jserver.gameserver.GameServer.main(GameServer.java:473)
+

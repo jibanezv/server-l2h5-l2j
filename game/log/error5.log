@@ -1,0 +1,20 @@
+ago 26, 2022 2:45:50 PM com.l2jserver.gameserver.model.quest.Quest showError
+ADVERTENCIA: C:\Servidor\game\data\scripts\hellbound\HellboundLoader.java
+java.lang.NullPointerException
+	at hellbound.AI.Zones.TullyWorkshop.TullyWorkshop.onKill(TullyWorkshop.java:1393)
+	at com.l2jserver.gameserver.model.quest.Quest.notifyKill(Quest.java:647)
+	at com.l2jserver.gameserver.model.quest.Quest.lambda$addKillId$2(Quest.java:1884)
+	at com.l2jserver.gameserver.model.events.listeners.ConsumerEventListener.executeEvent(ConsumerEventListener.java:46)
+	at com.l2jserver.gameserver.model.events.EventDispatcher.notifyToListeners(EventDispatcher.java:242)
+	at com.l2jserver.gameserver.model.events.EventDispatcher.notifyEventImpl(EventDispatcher.java:216)
+	at com.l2jserver.gameserver.model.events.EventDispatcher.notifyEvent(EventDispatcher.java:85)
+	at com.l2jserver.gameserver.model.events.EventDispatcher.lambda$notifyEventAsyncDelayed$1(EventDispatcher.java:135)
+	at com.l2jserver.gameserver.ThreadPoolManager$RunnableWrapper.run(ThreadPoolManager.java:89)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+

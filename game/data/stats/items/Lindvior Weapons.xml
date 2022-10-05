@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="102000" type="Weapon" name="Lindvior Caster-Fragment">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="BLUNT" />
+		<set type="Weapon" name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_magic_weapon" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="950"/>
+			<add stat="mAtk" val="690"/>
+			<add stat="critRate" val="80"/>
+			<add stat="pAtkSpd" val="379"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="102001" type="Weapon" name="Lindvior Cutter-Fragment">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="SWORD" />
+		<set type="Weapon" name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="1188"/>
+			<add stat="mAtk" val="517"/>
+			<add stat="critRate" val="80"/>
+			<add stat="pAtkSpd" val="379"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="102002" type="Weapon" name="Lindvior Dual Dagger-Fragment">
+		<set type="Weapon" name="weight" val="1740"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="DUALDAGGER" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="1188"/>
+			<add stat="mAtk" val="517"/>
+			<add stat="critRate" val="60"/>
+			<add stat="pAtkSpd" val="325"/>
+			<add stat="accCombat" val="8.00"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="102003" type="Weapon" name="Lindvior Shaper-Fragment">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="DAGGER" />
+		<set type="Weapon" name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="1039"/>
+			<add stat="mAtk" val="517"/>
+			<add stat="critRate" val="120"/>
+			<add stat="pAtkSpd" val="433"/>
+			<add stat="accCombat" val="3.75"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="102004" type="Weapon" name="Lindvior Shooter-Fragment">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="CROSSBOW" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="2106"/>
+			<add stat="mAtk" val="517"/>
+			<add stat="critRate" val="120"/>
+			<add stat="pAtkSpd" val="293"/>
+			<add stat="accCombat" val="3.75"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="102005" type="Weapon" name="Lindvior Slasher-Fragment">
+		<set type="Weapon" name="weight" val="1740"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="SWORD" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="1445"/>
+			<add stat="mAtk" val="517"/>
+			<add stat="pAtkSpd" val="325"/>
+			<add stat="critRate" val="80"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="102006" type="Weapon" name="Lindvior Thrower-Fragment">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="BOW" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="2339"/>
+			<add stat="mAtk" val="517"/>
+			<add stat="critRate" val="120"/>
+			<add stat="pAtkSpd" val="293"/>
+			<add stat="accCombat" val="3.75"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="102010" type="Weapon" name="Lindvior Caster-Standard">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="BLUNT" />
+		<set type="Weapon" name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_magic_weapon" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="1716"/>
+			<add stat="mAtk" val="1247"/>
+			<add stat="pAtkSpd" val="379"/>
+			<add stat="critRate" val="80"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="windPower" val="450" />
+		</for>
+	</item>
+	<item id="102011" type="Weapon" name="Lindvior Cutter-Standard">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="SWORD" />
+		<set type="Weapon" name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="2146"/>
+			<add stat="mAtk" val="935"/>
+			<add stat="pAtkSpd" val="379"/>
+			<add stat="accCombat" val="8"/>
+			<add stat="critRate" val="60"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="windPower" val="450" />
+		</for>
+	</item>
+	<item id="102012" type="Weapon" name="Lindvior Dual Dagger-Standard">
+		<set type="Weapon" name="weight" val="1740"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="DUALDAGGER" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="2146"/>
+			<add stat="mAtk" val="935"/>
+			<add stat="critRate" val="60"/>
+			<add stat="pAtkSpd" val="325"/>
+			<add stat="accCombat" val="8.00"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="102013" type="Weapon" name="Lindvior Shaper-Standard">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="DAGGER" />
+		<set type="Weapon" name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="1877"/>
+			<add stat="mAtk" val="935"/>
+			<add stat="critRate" val="120"/>
+			<add stat="pAtkSpd" val="433"/>
+			<add stat="accCombat" val="3.75"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="windPower" val="450" />
+		</for>
+	</item>
+	<item id="102014" type="Weapon" name="Lindvior Shooter-Standard">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="CROSSBOW" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="3804"/>
+			<add stat="mAtk" val="935"/>
+			<add stat="critRate" val="120"/>
+			<add stat="pAtkSpd" val="293"/>
+			<add stat="accCombat" val="3.75"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="102015" type="Weapon" name="Lindvior Slasher-Standard">
+		<set type="Weapon" name="weight" val="1740"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="SWORD" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="2611"/>
+			<add stat="mAtk" val="935"/>
+			<add stat="pAtkSpd" val="325"/>
+			<add stat="critRate" val="80"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="windPower" val="450" />
+		</for>
+	</item>
+	<item id="102016" type="Weapon" name="Lindvior Thrower-Standard">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="BOW" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="4898"/>
+			<add stat="mAtk" val="1084"/>
+			<add stat="pAtkSpd" val="293"/>
+			<add stat="accCombat" val="3.75"/>
+			<add stat="critRate" val="120"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="windPower" val="450" />
+		</for>
+	</item>
+	<item id="102020" type="Weapon" name="Lindvior Caster-High-grade">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="BLUNT" />
+		<set type="Weapon" name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_magic_weapon" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="1990"/>
+			<add stat="mAtk" val="1446"/>
+			<add stat="pAtkSpd" val="379"/>
+			<add stat="critRate" val="80"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="windPower" val="450" />
+		</for>
+	</item>
+	<item id="102021" type="Weapon" name="Lindvior Cutter-High-grade">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="SWORD" />
+		<set type="Weapon" name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="2488"/>
+			<add stat="mAtk" val="1084"/>
+			<add stat="pAtkSpd" val="379"/>
+			<add stat="critRate" val="80"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="windPower" val="450" />
+		</for>
+	</item>
+	<item id="102022" type="Weapon" name="Lindvior Dual Dagger-High grade">
+		<set type="Weapon" name="weight" val="1740"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="DUALDAGGER" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="2448"/>
+			<add stat="mAtk" val="1084"/>
+			<add stat="critRate" val="60"/>
+			<add stat="pAtkSpd" val="325"/>
+			<add stat="accCombat" val="8.00"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="102023" type="Weapon" name="Lindvior Shaper-High-grade">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="DAGGER" />
+		<set type="Weapon" name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="2177"/>
+			<add stat="mAtk" val="1084"/>
+			<add stat="pAtkSpd" val="433"/>
+			<add stat="accCombat" val="3.75"/>
+			<add stat="critRate" val="120"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="windPower" val="450" />
+		</for>
+	</item>
+	<item id="102024" type="Weapon" name="Lindvior Shooter-High-grade">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="CROSSBOW" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="4411"/>
+			<add stat="mAtk" val="1084"/>
+			<add stat="critRate" val="120"/>
+			<add stat="pAtkSpd" val="293"/>
+			<add stat="accCombat" val="3.75"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+		</for>
+	</item>
+	<item id="102025" type="Weapon" name="Lindvior Slasher-High-grade">
+		<set type="Weapon" name="weight" val="1740"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="SWORD" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="3027"/>
+			<add stat="mAtk" val="1084"/>
+			<add stat="pAtkSpd" val="325"/>
+			<add stat="critRate" val="80"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="windPower" val="450" />
+		</for>
+	</item>
+	<item id="102026" type="Weapon" name="Lindvior Thrower-High-grade">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="BOW" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<for>
+			<add stat="pAtk" val="5336"/>
+			<add stat="mAtk" val="935"/>
+			<add stat="pAtkSpd" val="293"/>
+			<add stat="accCombat" val="3.75"/>
+			<add stat="critRate" val="80"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="windPower" val="450" />
+		</for>
+	</item>
+	<item id="102030" type="Weapon" name="Lindvior Caster-Top-grade">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="BLUNT" />
+		<set type="Weapon" name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_magic_weapon" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<set name="item_skill" val="6644-1;909-10;6275-10;6280-10;6283-10;6284-10;6285-10;6296-10;6299-10;4408-10;4409-10" />
+		<for>
+			<add stat="pAtk" val="2307"/>
+			<add stat="mAtk" val="1676"/>
+			<add stat="pAtkSpd" val="1500"/>
+			<add stat="critRate" val="500"/>
+			<add stat="maxCp" val="6000"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="waterPower" val="450" />
+		</for>
+	</item>
+	<item id="102031" type="Weapon" name="Lindvior Cutter-Top-grade">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="SWORD" />
+		<set type="Weapon" name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<set name="item_skill" val="6644-1;909-10;6275-10;6280-10;6283-10;6284-10;6285-10;6296-10;6299-10;4408-10;4409-10" />
+		<for>
+			<add stat="pAtk" val="2884"/>
+			<add stat="mAtk" val="1257"/>
+			<add stat="pAtkSpd" val="1500"/>
+			<add stat="critRate" val="500"/>
+			<add stat="maxCp" val="6000"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="waterPower" val="450" />
+		</for>
+	</item>
+	<item id="102032" type="Weapon" name="Lindvior Dual Dagger-Top Grade">
+		<set type="Weapon" name="weight" val="1740"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="DUALDAGGER" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<set name="item_skill" val="6644-1;909-10;6275-10;6280-10;6283-10;6284-10;6285-10;6296-10;6299-10;4408-10;4409-10" />
+		<for>
+			<add stat="pAtk" val="2884"/>
+			<add stat="mAtk" val="1257"/>
+			<add stat="pAtkSpd" val="1500"/>
+			<add stat="critRate" val="500"/>
+			<add stat="maxCp" val="6000"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="waterPower" val="450" />
+		</for>
+	</item>
+	<item id="102033" type="Weapon" name="Lindvior Shaper-Top-grade">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="DAGGER" />
+		<set type="Weapon" name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<set name="item_skill" val="6644-1;909-10;6275-10;6280-10;6283-10;6284-10;6285-10;6296-10;6299-10;4408-10;4409-10" />
+		<for>
+			<add stat="pAtk" val="2523"/>
+			<add stat="mAtk" val="1257"/>
+			<add stat="pAtkSpd" val="1500"/>
+			<add stat="critRate" val="500"/>
+			<add stat="maxCp" val="6000"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="waterPower" val="450" />
+		</for>
+	</item>
+	<item id="102034" type="Weapon" name="Lindvior Shooter-Top-grade">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="CROSSBOW" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<set name="item_skill" val="6644-1;909-10;6275-10;6280-10;6283-10;6284-10;6285-10;6296-10;6299-10;4408-10;4409-10" />
+		<for>
+			<add stat="pAtk" val="5113"/>
+			<add stat="mAtk" val="1257"/>
+			<add stat="pAtkSpd" val="1500"/>
+			<add stat="critRate" val="500"/>
+			<add stat="maxCp" val="6000"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="waterPower" val="450" />
+		</for>
+	</item>
+	<item id="102035" type="Weapon" name="Lindvior Slasher-Top-grade">
+		<set type="Weapon" name="weight" val="1740"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="SWORD" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<set name="item_skill" val="6644-1;909-10;6275-10;6280-10;6283-10;6284-10;6285-10;6296-10;6299-10;4408-10;4409-10" />
+		<for>
+			<add stat="pAtk" val="3509"/>
+			<add stat="mAtk" val="1257"/>
+			<add stat="pAtkSpd" val="1500"/>
+			<add stat="critRate" val="500"/>
+			<add stat="maxCp" val="6000"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="waterPower" val="450" />
+		</for>
+	</item>
+	<item id="102036" type="Weapon" name="Lindvior Thrower-Top-grade">
+		<set type="Weapon" name="weight" val="1520"/>
+		<set type="Weapon" name="default_action" val="EQUIP" />
+		<set type="Weapon" name="weapon_type" val="BOW" />
+		<set type="Weapon" name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="true" />
+		<set type="Weapon" name="dropable" val="true"/>
+		<set type="Weapon" name="tradeable" val="true"/>
+		<set type="Weapon" name="sellable" val="false"/>
+		<set type="Weapon" name="soulshots" val="1"/>
+		<set type="Weapon" name="spiritshots" val="1"/>
+		<set type="Weapon" name="price" val="0"/>
+		<set name="crystal_type" val="S84" />
+		<set name="item_skill" val="6644-1;909-10;6275-10;6280-10;6283-10;6284-10;6285-10;6296-10;6299-10;4408-10;4409-10" />
+		<for>
+			<add stat="pAtk" val="5678"/>
+			<add stat="mAtk" val="1257"/>
+			<add stat="pAtkSpd" val="1500"/>
+			<add stat="critRate" val="500"/>
+			<add stat="maxCp" val="6000"/>
+			<enchant stat="pAtk" val="0"/>
+			<enchant stat="mAtk" val="0"/>
+			<add stat="waterPower" val="450" />
+		</for>
+	</item>
+</list>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/armorSets.xsd">
+<!-- S84 Ixion Armor Sets -->
+	<set id="212">
+		<chest id="88163" /> <!-- Ixion Breastplate -->
+		<legs id="88166" /> <!-- Ixion Gaiter -->
+		<head id="88160" /> <!-- Ixion Helmet -->
+		<gloves id="88169" /> <!-- Ixion Gauntlet -->
+		<feet id="88172" /> <!-- Ixion Boots -->
+		<shield id="50500" /> <!-- Ixion Shield -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="8403" level="1" /> <!-- Ixion Heavy Armor Set -->
+		<shield_skill id="8496" level="1" /> <!-- Ixion Shield -->
+		<enchant6skill id="8461" level="1" /> <!-- Enchant Heavy Armor (S Grade) -->
+		<str val="3" />
+		<con val="-2" />
+	</set>
+	<set id="213">
+		<chest id="88164" /> <!-- Ixion Leather Breastplate -->
+		<legs id="88167" /> <!-- Ixion Leather Legging -->
+		<head id="88161" /> <!-- Ixion Leather Helmet -->
+		<gloves id="88170" /> <!-- Ixion Leather Gloves -->
+		<feet id="88173" /> <!-- Ixion Leather Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="8404" level="1" /> <!-- Ixion Leather Armor Set -->
+		<enchant6skill id="8462" level="1" /> <!-- Enchant Light Armor (S Grade) -->
+		<str val="1" />
+		<con val="-2" />
+		<dex val="2" />
+	</set>
+	<set id="214">
+		<chest id="88165" /> <!-- Ixion Tunic -->
+		<legs id="88168" /> <!-- Ixion Stockings -->
+		<head id="88162" /> <!-- Ixion Circlet -->
+		<gloves id="88171" /> <!-- Ixion Gloves -->
+		<feet id="88174" /> <!-- Ixion Shoes -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="8405" level="1" /> <!-- Ixion Robe Set -->
+		<enchant6skill id="8463" level="1" /> <!-- Enchant Robe (S Grade) -->
+		<int val="1" />
+		<men val="-2" />
+		<wit val="2" />
+	</set>
+			<!-- S84 Ixion Armor Sets -->
+</list>

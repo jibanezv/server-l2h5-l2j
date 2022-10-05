@@ -1,0 +1,3 @@
+17/06/2022 20:17:21>Waizatsu [268481351]>Drop>no-target>(id: 14562 name: Dante's Rebellion - Haste/Focus/Health/Critical Damage/HP Drain/HP Regeneration/Critical Stun objId: 268483377 x: 184809 y: -105983 z: -6309)
+03/07/2022 13:04:53>Waizatsu [268481351]>Drop>no-target>(id: 14562 name: Dante's Rebellion - Haste/Focus/Health/Critical Damage/HP Drain/HP Regeneration/Critical Stun objId: 268483377 x: 185602 y: -105637 z: -6304)
+03/07/2022 13:10:41>Waizatsu [268481351]>Drop>no-target>(id: 100030 name: Antharas Avenger-Top-grade objId: 268483237 x: 185642 y: -106037 z: -6309)

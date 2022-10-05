@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <item id="31121" type="Armor" name="Draconic's Cloak">
+        <set name="icon" val="Ferrum_Weapons_Asuki.icon_cloak_ferrum" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="back" />
+        <set name="crystal_type" val="S84" />
+        <set name="immediate_effect" val="1" />
+        <set name="material" val="CLOTH" />
+        <set name="price" val="32971650" />
+        <set name="weight" val="220" />
+        <set name="item_skill" val="21243-1" />
+        <cond msgId="2453">
+            <player cloakStatus="true" />
+        </cond>
+        <for>
+            <add stat="darkRes" val="10" />
+            <add stat="earthRes" val="10" />
+            <add stat="fireRes" val="10" />
+            <add stat="holyRes" val="20" />
+            <add stat="waterRes" val="20" />
+            <add stat="windRes" val="20" />
+            <add stat="pDef" val="30" />
+        </for>
+    </item>
+    <item id="31122" type="Armor" name="Vesper's Cloak">
+        <set name="icon" val="Ferrum_Weapons_Asuki.icon_cloak_ferrum" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="back" />
+        <set name="crystal_type" val="S84" />
+        <set name="immediate_effect" val="1" />
+        <set name="material" val="CLOTH" />
+        <set name="price" val="32971650" />
+        <set name="weight" val="220" />
+        <set name="item_skill" val="21243-1" />
+        <cond msgId="2453">
+            <player cloakStatus="true" />
+        </cond>
+        <for>
+            <add stat="darkRes" val="10" />
+            <add stat="earthRes" val="10" />
+            <add stat="fireRes" val="10" />
+            <add stat="holyRes" val="20" />
+            <add stat="waterRes" val="20" />
+            <add stat="windRes" val="20" />
+            <add stat="pDef" val="30" />
+        </for>
+    </item>
+    <item id="31123" type="Armor" name="Elegia's Cloak">
+        <set name="icon" val="Ferrum_Weapons_Asuki.icon_cloak_ferrum" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="back" />
+        <set name="crystal_type" val="S84" />
+        <set name="immediate_effect" val="1" />
+        <set name="material" val="CLOTH" />
+        <set name="price" val="32971650" />
+        <set name="weight" val="220" />
+        <set name="item_skill" val="21243-1" />
+        <cond msgId="2453">
+            <player cloakStatus="true" />
+        </cond>
+        <for>
+            <add stat="darkRes" val="10" />
+            <add stat="earthRes" val="10" />
+            <add stat="fireRes" val="10" />
+            <add stat="holyRes" val="20" />
+            <add stat="waterRes" val="20" />
+            <add stat="windRes" val="20" />
+            <add stat="pDef" val="30" />
+        </for>
+    </item>
+    <item id="31124" type="Armor" name="Vorpal's Cloak">
+        <set name="icon" val="Ferrum_Weapons_Asuki.icon_cloak_ferrum" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="back" />
+        <set name="crystal_type" val="S84" />
+        <set name="immediate_effect" val="1" />
+        <set name="material" val="CLOTH" />
+        <set name="price" val="32971650" />
+        <set name="weight" val="220" />
+        <set name="item_skill" val="21243-1" />
+        <cond msgId="2453">
+            <player cloakStatus="true" />
+        </cond>
+        <for>
+            <add stat="darkRes" val="10" />
+            <add stat="earthRes" val="10" />
+            <add stat="fireRes" val="10" />
+            <add stat="holyRes" val="20" />
+            <add stat="waterRes" val="20" />
+            <add stat="windRes" val="20" />
+            <add stat="pDef" val="30" />
+        </for>
+    </item>
+    <item id="31125" type="Armor" name="Moirai's Cloak">
+        <set name="icon" val="Ferrum_Weapons_Asuki.icon_cloak_ferrum" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="back" />
+        <set name="crystal_type" val="S84" />
+        <set name="immediate_effect" val="1" />
+        <set name="material" val="CLOTH" />
+        <set name="price" val="32971650" />
+        <set name="weight" val="220" />
+        <set name="item_skill" val="21243-1" />
+        <cond msgId="2453">
+            <player cloakStatus="true" />
+        </cond>
+        <for>
+            <add stat="darkRes" val="10" />
+            <add stat="earthRes" val="10" />
+            <add stat="fireRes" val="10" />
+            <add stat="holyRes" val="20" />
+            <add stat="waterRes" val="20" />
+            <add stat="windRes" val="20" />
+            <add stat="pDef" val="30" />
+        </for>
+    </item>
+</list>

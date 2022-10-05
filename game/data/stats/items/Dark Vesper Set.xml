@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <item id="55015" type="Armor" name="Dark Vesper Helmet">
+        <set name="icon" val="icon.armor_helmet_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="head" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="606" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="BONE" />
+        <set name="weight" val="530" />
+        <set name="price" val="12627000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="110" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="55020" type="Armor" name="Dark Vesper Leather Helmet">
+        <set name="icon" val="icon.armor_LEATHER_helmet_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="head" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="606" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="BONE" />
+        <set name="weight" val="530" />
+        <set name="price" val="12627000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="110" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="55025" type="Armor" name="Dark Vesper Circlet">
+        <set name="icon" val="icon.armor_circlet_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="head" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="606" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="BONE" />
+        <set name="weight" val="530" />
+        <set name="price" val="12627000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="110" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="55016" type="Armor" name="Dark Vesper Breastplate">
+        <set name="icon" val="icon.armor_t100_u_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="HEAVY" />
+        <set name="bodypart" val="chest" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="1616" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="BRONZE" />
+        <set name="weight" val="7520" />
+        <set name="price" val="33673000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="278" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="55021" type="Armor" name="Dark Vesper Leather Breastplate">
+        <set name="icon" val="icon.armor_t101_u_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="LIGHT" />
+        <set name="bodypart" val="chest" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="1212" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="BRONZE" />
+        <set name="weight" val="4140" />
+        <set name="price" val="25255000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="208" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="55026" type="Armor" name="Dark Vesper Tunic">
+        <set name="icon" val="icon.armor_t102_u_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="MAGIC" />
+        <set name="bodypart" val="chest" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="1212" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="BRONZE" />
+        <set name="weight" val="1750" />
+        <set name="price" val="25255000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="139" />
+            <add stat="maxMp" val="614" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="55017" type="Armor" name="Dark Vesper Gaiters">
+        <set name="icon" val="icon.armor_t100_l_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="HEAVY" />
+        <set name="bodypart" val="legs" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="1010" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="SCALE_OF_DRAGON" />
+        <set name="weight" val="3170" />
+        <set name="price" val="21046000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="170" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="55022" type="Armor" name="Dark Vesper Leather Leggings">
+        <set name="icon" val="icon.armor_t101_l_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="LIGHT" />
+        <set name="bodypart" val="legs" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="758" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="SCALE_OF_DRAGON" />
+        <set name="weight" val="1320" />
+        <set name="price" val="15784000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="128" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="55027" type="Armor" name="Dark Vesper Stockings">
+        <set name="icon" val="icon.armor_t102_l_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="MAGIC" />
+        <set name="bodypart" val="legs" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="758" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="SCALE_OF_DRAGON" />
+        <set name="weight" val="850" />
+        <set name="price" val="15784000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="74" />
+            <add stat="maxMp" val="392" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="55018" type="Armor" name="Dark Vesper Gauntlet">
+        <set name="icon" val="icon.armor_t100_g_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="gloves" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="404" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="510" />
+        <set name="price" val="8418000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="86" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="55023" type="Armor" name="Dark Vesper Leather Gloves">
+        <set name="icon" val="icon.armor_t101_g_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="gloves" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="404" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="510" />
+        <set name="price" val="8418000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="74" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="55028" type="Armor" name="Dark Vesper Gloves">
+        <set name="icon" val="icon.armor_t102_g_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="gloves" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="404" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="510" />
+        <set name="price" val="8418000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="74" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="55019" type="Armor" name="Dark Vesper Boots">
+        <set name="icon" val="icon.armor_t100_b_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="feet" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="404" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="1070" />
+        <set name="price" val="8418000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="74" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="55024" type="Armor" name="Dark Vesper Leather Boots">
+        <set name="icon" val="icon.armor_t101_b_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="feet" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="404" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="1070" />
+        <set name="price" val="8418000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="74" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="55029" type="Armor" name="Dark Vesper Shoes">
+        <set name="icon" val="icon.armor_t102_b_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="feet" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="404" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="1070" />
+        <set name="price" val="8418000" />
+        <set name="element_enabled" val="1" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <add stat="pDef" val="74" />
+            <enchant stat="pDef" val="0" />
+        </for>
+    </item>
+    <item id="40218" type="Armor" name="Dark Vesper Shield">
+        <set name="icon" val="Ferrum_Weapons_Asuki.lind_shield_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="lhand" />
+        <set name="immediate_effect" val="1" />
+        <set name="crystal_count" val="844" />
+        <set name="crystal_type" val="S84" />
+        <set name="material" val="CRYSTAL" />
+        <set name="weight" val="1190" />
+        <set name="price" val="17575000" />
+        <set name="enchant_enabled" val="1" />
+        <for>
+            <sub stat="rEvas" val="8" />
+            <set stat="rShld" val="20" />
+            <set stat="sDef" val="413" />
+            <enchant val="0" stat="sDef" />
+        </for>
+    </item>
+</list>

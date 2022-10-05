@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/armorSets.xsd">
+<!-- S84 Scarlet Armor Sets -->
+	<set id="209">
+		<chest id="34575" /> <!-- Scarlet Breastplate -->
+		<legs id="34578" /> <!-- Scarlet Gaiter -->
+		<head id="34572" /> <!-- Scarlet Helmet -->
+		<gloves id="34581" /> <!-- Scarlet Gauntlet -->
+		<feet id="34584" /> <!-- Scarlet Boots -->
+		<shield id="34591" /> <!-- Scarlet Shield -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="8403" level="1" /> <!-- Scarlet Heavy Armor Set -->
+		<shield_skill id="8496" level="1" /> <!-- Scarlet Shield -->
+		<enchant6skill id="8461" level="1" /> <!-- Enchant Heavy Armor (S Grade) -->
+		<str val="3" />
+		<con val="-2" />
+	</set>
+	<set id="210">
+		<chest id="34576" /> <!-- Scarlet Leather Breastplate -->
+		<legs id="34579" /> <!-- Scarlet Leather Legging -->
+		<head id="34573" /> <!-- Scarlet Leather Helmet -->
+		<gloves id="34582" /> <!-- Scarlet Leather Gloves -->
+		<feet id="34585" /> <!-- Scarlet Leather Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="8404" level="1" /> <!-- Scarlet Leather Armor Set -->
+		<enchant6skill id="8462" level="1" /> <!-- Enchant Light Armor (S Grade) -->
+		<str val="1" />
+		<con val="-2" />
+		<dex val="2" />
+	</set>
+	<set id="211">
+		<chest id="34577" /> <!-- Scarlet Tunic -->
+		<legs id="34580" /> <!-- Scarlet Stockings -->
+		<head id="34574" /> <!-- Scarlet Circlet -->
+		<gloves id="34583" /> <!-- Scarlet Gloves -->
+		<feet id="34586" /> <!-- Scarlet Shoes -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="8405" level="1" /> <!-- Scarlet Robe Set -->
+		<enchant6skill id="8463" level="1" /> <!-- Enchant Robe (S Grade) -->
+		<int val="1" />
+		<men val="-2" />
+		<wit val="2" />
+	</set>
+			<!-- S84 Scarlet Armor Sets -->
+</list>
