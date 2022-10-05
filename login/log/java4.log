@@ -1,0 +1,23 @@
+2022.07.29 22:44:56,069	INFO	1	com.l2jserver.commons.database.pool.impl.ConnectionFactory	Using HikariCP connection pool.
+2022.07.29 22:44:56,159	INFO	1	com.l2jserver.loginserver.LoginController	Loading LoginController...
+2022.07.29 22:44:56,728	INFO	1	com.l2jserver.loginserver.LoginController	Cached 10 KeyPairs for RSA communication
+2022.07.29 22:44:57,073	INFO	1	com.l2jserver.loginserver.LoginController	Stored 20 keys for Blowfish communication
+2022.07.29 22:44:57,199	INFO	1	com.l2jserver.util.data.xml.IXmlReader	GameServerTable: Loaded 127 server names.
+2022.07.29 22:44:57,201	INFO	1	com.zaxxer.hikari.HikariDataSource	HikariPool-1 - Starting...
+2022.07.29 22:44:57,422	INFO	1	com.zaxxer.hikari.HikariDataSource	HikariPool-1 - Start completed.
+2022.07.29 22:44:57,453	INFO	1	com.l2jserver.util.data.xml.IXmlReader	GameServerTable: Loaded 1 registered Game Servers.
+2022.07.29 22:44:57,530	INFO	1	com.l2jserver.util.data.xml.IXmlReader	GameServerTable: Cached 10 RSA keys for Game Server communication.
+2022.07.29 22:44:57,540	INFO	1	com.l2jserver.loginserver.L2LoginServer	Loaded 2 IP Bans.
+2022.07.29 22:44:57,563	INFO	1	com.l2jserver.loginserver.L2LoginServer	Listening for GameServers on 127.0.0.1:9014
+2022.07.29 22:44:57,563	INFO	1	com.l2jserver.loginserver.L2LoginServer	Telnet server is currently disabled.
+2022.07.29 22:44:57,564	INFO	1	com.l2jserver.loginserver.L2LoginServer	L2LoginServer: is now listening on: *:2106
+2022.07.29 22:44:57,565	INFO	1	com.l2jserver.UPnPService	Looking for UPnP Gateway Devices...
+2022.07.29 22:44:59,264	INFO	1	com.l2jserver.UPnPService	Using UPnP gateway: ARRIS TG862G Router
+2022.07.29 22:44:59,271	INFO	1	com.l2jserver.UPnPService	Using local address: 192.168.0.15 External address: 186.20.204.244
+2022.07.29 22:44:59,304	INFO	1	com.l2jserver.UPnPService	Mapping successful on 192.168.0.15:2106
+2022.07.29 22:45:55,182	INFO	21	com.l2jserver.loginserver.GameServerThread	Updated Gameserver [1] Bartz IP's:
+2022.07.29 22:45:55,183	INFO	21	com.l2jserver.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2022.07.29 22:45:55,184	INFO	21	com.l2jserver.loginserver.GameServerThread	192.168.0.15/192.168.0.0/24
+2022.07.29 22:45:55,184	INFO	21	com.l2jserver.loginserver.GameServerThread	186.20.204.244/0.0.0.0/0
+2022.07.29 23:57:03,733	INFO	21	com.l2jserver.loginserver.GameServerThread	GameServer [1] Bartz: Connection lost: Connection reset
+2022.07.29 23:57:03,734	INFO	21	com.l2jserver.loginserver.GameServerThread	Server [1] Bartz is now set as disconnected

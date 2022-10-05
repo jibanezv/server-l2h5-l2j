@@ -1,0 +1,6 @@
+2022.04.24 14:14:08,823	INFO	1	com.l2jserver.commons.database.pool.impl.ConnectionFactory	Using HikariCP connection pool.
+2022.04.24 14:14:08,917	INFO	1	com.l2jserver.loginserver.LoginController	Loading LoginController...
+2022.04.24 14:14:09,598	INFO	1	com.l2jserver.loginserver.LoginController	Cached 10 KeyPairs for RSA communication
+2022.04.24 14:14:10,069	INFO	1	com.l2jserver.loginserver.LoginController	Stored 20 keys for Blowfish communication
+2022.04.24 14:14:10,197	INFO	1	com.l2jserver.util.data.xml.IXmlReader	GameServerTable: Loaded 127 server names.
+2022.04.24 14:14:10,198	INFO	1	com.zaxxer.hikari.HikariDataSource	HikariPool-1 - Starting...

@@ -1,0 +1,10 @@
+2022.04.26 10:33:31,908	INFO	1	com.l2jserver.commons.database.pool.impl.ConnectionFactory	Using HikariCP connection pool.
+2022.04.26 10:33:32,033	INFO	1	com.l2jserver.loginserver.LoginController	Loading LoginController...
+2022.04.26 10:33:33,110	INFO	1	com.l2jserver.loginserver.LoginController	Cached 10 KeyPairs for RSA communication
+2022.04.26 10:33:33,563	INFO	1	com.l2jserver.loginserver.LoginController	Stored 20 keys for Blowfish communication
+2022.04.26 10:33:33,688	INFO	1	com.l2jserver.util.data.xml.IXmlReader	GameServerTable: Loaded 127 server names.
+2022.04.26 10:33:33,688	INFO	1	com.zaxxer.hikari.HikariDataSource	HikariPool-1 - Starting...
+2022.04.26 10:33:38,890	SEVERE	1	com.zaxxer.hikari.pool.HikariPool	HikariPool-1 - Exception during pool initialization.
+2022.04.26 10:33:38,905	WARNING	1	com.l2jserver.commons.database.pool.IConnectionFactory	HikariCPConnectionFactory: Unable to get a connection!
+2022.04.26 10:33:38,905	INFO	1	com.zaxxer.hikari.HikariDataSource	HikariPool-1 - Starting...
+2022.04.26 10:33:44,014	SEVERE	1	com.zaxxer.hikari.pool.HikariPool	HikariPool-1 - Exception during pool initialization.

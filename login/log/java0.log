@@ -1,0 +1,19 @@
+2022.09.23 16:16:03,980	INFO	1	com.l2jserver.commons.database.pool.impl.ConnectionFactory	Using HikariCP connection pool.
+2022.09.23 16:16:04,121	INFO	1	com.l2jserver.loginserver.LoginController	Loading LoginController...
+2022.09.23 16:16:05,169	INFO	1	com.l2jserver.loginserver.LoginController	Cached 10 KeyPairs for RSA communication
+2022.09.23 16:16:05,699	INFO	1	com.l2jserver.loginserver.LoginController	Stored 20 keys for Blowfish communication
+2022.09.23 16:16:05,847	INFO	1	com.l2jserver.util.data.xml.IXmlReader	GameServerTable: Loaded 127 server names.
+2022.09.23 16:16:05,848	INFO	1	com.zaxxer.hikari.HikariDataSource	HikariPool-1 - Starting...
+2022.09.23 16:16:06,078	INFO	1	com.zaxxer.hikari.HikariDataSource	HikariPool-1 - Start completed.
+2022.09.23 16:16:06,102	INFO	1	com.l2jserver.util.data.xml.IXmlReader	GameServerTable: Loaded 1 registered Game Servers.
+2022.09.23 16:16:06,202	INFO	1	com.l2jserver.util.data.xml.IXmlReader	GameServerTable: Cached 10 RSA keys for Game Server communication.
+2022.09.23 16:16:06,206	INFO	1	com.l2jserver.loginserver.L2LoginServer	Loaded 2 IP Bans.
+2022.09.23 16:16:06,229	INFO	1	com.l2jserver.loginserver.L2LoginServer	Listening for GameServers on 127.0.0.1:9014
+2022.09.23 16:16:06,229	INFO	1	com.l2jserver.loginserver.L2LoginServer	Telnet server is currently disabled.
+2022.09.23 16:16:06,230	INFO	1	com.l2jserver.loginserver.L2LoginServer	L2LoginServer: is now listening on: *:2106
+2022.09.23 16:16:06,231	INFO	1	com.l2jserver.UPnPService	Looking for UPnP Gateway Devices...
+2022.09.23 16:16:15,676	INFO	1	com.l2jserver.UPnPService	No UPnP gateways found.
+2022.09.23 16:16:52,905	INFO	23	com.l2jserver.loginserver.GameServerThread	Updated Gameserver [1] Bartz IP's:
+2022.09.23 16:16:52,906	INFO	23	com.l2jserver.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2022.09.23 16:16:52,907	INFO	23	com.l2jserver.loginserver.GameServerThread	192.168.1.64/192.168.1.0/24
+2022.09.23 16:16:52,907	INFO	23	com.l2jserver.loginserver.GameServerThread	186.10.185.130/0.0.0.0/0

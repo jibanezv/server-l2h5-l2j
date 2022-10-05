@@ -1,0 +1,14 @@
+abr 14, 2022 4:51:14 PM com.l2jserver.loginserver.L2LoginServer <init>
+GRAVE: FATAL: Failed to start the Game Server Listener. Reason: Address already in use: JVM_Bind
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at com.l2jserver.loginserver.FloodProtectedListener.<init>(FloodProtectedListener.java:49)
+	at com.l2jserver.loginserver.GameServerListener.<init>(GameServerListener.java:37)
+	at com.l2jserver.loginserver.L2LoginServer.<init>(L2LoginServer.java:151)
+	at com.l2jserver.loginserver.L2LoginServer.main(L2LoginServer.java:61)
+
